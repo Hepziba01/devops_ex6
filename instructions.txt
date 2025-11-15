@@ -33,6 +33,9 @@ if ask  Do you want to continue?([Y]es/[N]o): give Y
 
 if ask  Do you want to continue?([Y]es/[N]o): give Y
 
+minikube status
+kubectl get nodes
+
 
 kubectl apply -f nginx-pod.yaml
 
